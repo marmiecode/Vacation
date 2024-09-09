@@ -15,6 +15,7 @@
 		956069DB2C8F8348005EC85B /* VacationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069DA2C8F8348005EC85B /* VacationUITests.swift */; };
 		956069DD2C8F8348005EC85B /* VacationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069DC2C8F8348005EC85B /* VacationUITestsLaunchTests.swift */; };
 		956069EB2C8F846F005EC85B /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069EA2C8F846F005EC85B /* Offer.swift */; };
+		956069EE2C8F86E3005EC85B /* OfferViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069ED2C8F86E3005EC85B /* OfferViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		956069DA2C8F8348005EC85B /* VacationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationUITests.swift; sourceTree = "<group>"; };
 		956069DC2C8F8348005EC85B /* VacationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		956069EA2C8F846F005EC85B /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		956069ED2C8F86E3005EC85B /* OfferViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		956069BE2C8F8347005EC85B /* Vacation */ = {
 			isa = PBXGroup;
 			children = (
+				956069EC2C8F86BD005EC85B /* ViewModels */,
 				956069E92C8F8460005EC85B /* Models */,
 				956069BF2C8F8347005EC85B /* VacationApp.swift */,
 				956069C12C8F8347005EC85B /* ContentView.swift */,
@@ -136,6 +139,14 @@
 				956069EA2C8F846F005EC85B /* Offer.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		956069EC2C8F86BD005EC85B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				956069ED2C8F86E3005EC85B /* OfferViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				956069EB2C8F846F005EC85B /* Offer.swift in Sources */,
+				956069EE2C8F86E3005EC85B /* OfferViewModel.swift in Sources */,
 				956069C22C8F8347005EC85B /* ContentView.swift in Sources */,
 				956069C02C8F8347005EC85B /* VacationApp.swift in Sources */,
 			);
