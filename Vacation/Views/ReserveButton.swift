@@ -22,8 +22,4 @@ struct ReserveButton: View {
     }
 }
 
-#Preview {
-    ReserveButton(action: {
-        print("Kliknity")
-    })
-}
+

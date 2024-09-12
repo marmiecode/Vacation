@@ -18,6 +18,7 @@
 		956069EE2C8F86E3005EC85B /* OfferViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069ED2C8F86E3005EC85B /* OfferViewModel.swift */; };
 		956069F62C922EAD005EC85B /* ReserveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069F52C922EAD005EC85B /* ReserveButton.swift */; };
 		956069F82C924296005EC85B /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069F72C924296005EC85B /* LikeButton.swift */; };
+		956069FC2C938037005EC85B /* CustomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069FB2C938037005EC85B /* CustomBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		956069ED2C8F86E3005EC85B /* OfferViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferViewModel.swift; sourceTree = "<group>"; };
 		956069F52C922EAD005EC85B /* ReserveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveButton.swift; sourceTree = "<group>"; };
 		956069F72C924296005EC85B /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
+		956069FB2C938037005EC85B /* CustomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			children = (
 				956069F52C922EAD005EC85B /* ReserveButton.swift */,
 				956069F72C924296005EC85B /* LikeButton.swift */,
+				956069FB2C938037005EC85B /* CustomBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			files = (
 				956069F82C924296005EC85B /* LikeButton.swift in Sources */,
 				956069EB2C8F846F005EC85B /* Offer.swift in Sources */,
+				956069FC2C938037005EC85B /* CustomBar.swift in Sources */,
 				956069EE2C8F86E3005EC85B /* OfferViewModel.swift in Sources */,
 				956069C22C8F8347005EC85B /* ContentView.swift in Sources */,
 				956069C02C8F8347005EC85B /* VacationApp.swift in Sources */,
