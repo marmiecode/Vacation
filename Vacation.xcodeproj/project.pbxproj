@@ -17,6 +17,7 @@
 		956069EB2C8F846F005EC85B /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069EA2C8F846F005EC85B /* Offer.swift */; };
 		956069EE2C8F86E3005EC85B /* OfferViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069ED2C8F86E3005EC85B /* OfferViewModel.swift */; };
 		956069F62C922EAD005EC85B /* ReserveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069F52C922EAD005EC85B /* ReserveButton.swift */; };
+		956069F82C924296005EC85B /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069F72C924296005EC85B /* LikeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		956069EA2C8F846F005EC85B /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 		956069ED2C8F86E3005EC85B /* OfferViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferViewModel.swift; sourceTree = "<group>"; };
 		956069F52C922EAD005EC85B /* ReserveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveButton.swift; sourceTree = "<group>"; };
+		956069F72C924296005EC85B /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				956069F52C922EAD005EC85B /* ReserveButton.swift */,
+				956069F72C924296005EC85B /* LikeButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				956069F82C924296005EC85B /* LikeButton.swift in Sources */,
 				956069EB2C8F846F005EC85B /* Offer.swift in Sources */,
 				956069EE2C8F86E3005EC85B /* OfferViewModel.swift in Sources */,
 				956069C22C8F8347005EC85B /* ContentView.swift in Sources */,
