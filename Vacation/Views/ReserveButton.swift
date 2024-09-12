@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ReserveButton: View {
     var action: () -> Void
+    
     var body: some View {
         Button(action: action) {
             Text("Reserve")

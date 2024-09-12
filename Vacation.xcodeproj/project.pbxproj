@@ -19,6 +19,7 @@
 		956069F62C922EAD005EC85B /* ReserveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069F52C922EAD005EC85B /* ReserveButton.swift */; };
 		956069F82C924296005EC85B /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069F72C924296005EC85B /* LikeButton.swift */; };
 		956069FC2C938037005EC85B /* CustomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069FB2C938037005EC85B /* CustomBar.swift */; };
+		95606A002C93B16B005EC85B /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069FF2C93B16B005EC85B /* IconButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		956069F52C922EAD005EC85B /* ReserveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveButton.swift; sourceTree = "<group>"; };
 		956069F72C924296005EC85B /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
 		956069FB2C938037005EC85B /* CustomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBar.swift; sourceTree = "<group>"; };
+		956069FF2C93B16B005EC85B /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				956069F52C922EAD005EC85B /* ReserveButton.swift */,
 				956069F72C924296005EC85B /* LikeButton.swift */,
 				956069FB2C938037005EC85B /* CustomBar.swift */,
+				956069FF2C93B16B005EC85B /* IconButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95606A002C93B16B005EC85B /* IconButton.swift in Sources */,
 				956069F82C924296005EC85B /* LikeButton.swift in Sources */,
 				956069EB2C8F846F005EC85B /* Offer.swift in Sources */,
 				956069FC2C938037005EC85B /* CustomBar.swift in Sources */,
