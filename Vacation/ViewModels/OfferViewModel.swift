@@ -36,3 +36,4 @@ class OfferViewModel:ObservableObject {
   func offer(for id: UUID) -> Offer {
     return offers.first {$0.id == id }!
   }
+}
