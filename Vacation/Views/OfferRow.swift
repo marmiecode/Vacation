@@ -57,16 +57,4 @@ struct OfferRow: View {
 }
 
 
-struct OfferRow_Previews: PreviewProvider {
-    @State static var isLiked = false
-    
-    static var previews: some View {
-        OfferRow(
-            offer: Offer(hotelName: "Berlin Hotel", city: "Berlin", country: "DE", description: "okkkkkkkkkkkkkkkkkkkkk", price: 800.50, image: ["zdj1", "zdj2"]),
-            isLiked: isLiked,
-            toggleLiked: {
-                isLiked.toggle()
-            }
-        )
-    }
-}
+
