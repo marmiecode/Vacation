@@ -20,6 +20,7 @@
 		956069F82C924296005EC85B /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069F72C924296005EC85B /* LikeButton.swift */; };
 		956069FC2C938037005EC85B /* CustomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069FB2C938037005EC85B /* CustomBar.swift */; };
 		95606A002C93B16B005EC85B /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069FF2C93B16B005EC85B /* IconButton.swift */; };
+		95606A022C94A8CF005EC85B /* OfferRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95606A012C94A8CF005EC85B /* OfferRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		956069F72C924296005EC85B /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
 		956069FB2C938037005EC85B /* CustomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBar.swift; sourceTree = "<group>"; };
 		956069FF2C93B16B005EC85B /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		95606A012C94A8CF005EC85B /* OfferRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 				956069F72C924296005EC85B /* LikeButton.swift */,
 				956069FB2C938037005EC85B /* CustomBar.swift */,
 				956069FF2C93B16B005EC85B /* IconButton.swift */,
+				95606A012C94A8CF005EC85B /* OfferRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				956069FC2C938037005EC85B /* CustomBar.swift in Sources */,
 				956069EE2C8F86E3005EC85B /* OfferViewModel.swift in Sources */,
 				956069C22C8F8347005EC85B /* ContentView.swift in Sources */,
+				95606A022C94A8CF005EC85B /* OfferRow.swift in Sources */,
 				956069C02C8F8347005EC85B /* VacationApp.swift in Sources */,
 				956069F62C922EAD005EC85B /* ReserveButton.swift in Sources */,
 			);
