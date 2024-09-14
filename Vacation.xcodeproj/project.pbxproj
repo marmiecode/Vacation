@@ -23,6 +23,7 @@
 		95606A022C94A8CF005EC85B /* OfferRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95606A012C94A8CF005EC85B /* OfferRow.swift */; };
 		95606A062C95096D005EC85B /* OfferListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95606A052C95096D005EC85B /* OfferListView.swift */; };
 		95606A0A2C95FAA4005EC85B /* LikedOffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95606A092C95FAA4005EC85B /* LikedOffersView.swift */; };
+		95606A0E2C96247B005EC85B /* OfferDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95606A0D2C96247B005EC85B /* OfferDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		95606A012C94A8CF005EC85B /* OfferRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferRow.swift; sourceTree = "<group>"; };
 		95606A052C95096D005EC85B /* OfferListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferListView.swift; sourceTree = "<group>"; };
 		95606A092C95FAA4005EC85B /* LikedOffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedOffersView.swift; sourceTree = "<group>"; };
+		95606A0D2C96247B005EC85B /* OfferDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				95606A012C94A8CF005EC85B /* OfferRow.swift */,
 				95606A052C95096D005EC85B /* OfferListView.swift */,
 				95606A092C95FAA4005EC85B /* LikedOffersView.swift */,
+				95606A0D2C96247B005EC85B /* OfferDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95606A0E2C96247B005EC85B /* OfferDetailView.swift in Sources */,
 				95606A002C93B16B005EC85B /* IconButton.swift in Sources */,
 				956069F82C924296005EC85B /* LikeButton.swift in Sources */,
 				956069EB2C8F846F005EC85B /* Offer.swift in Sources */,
