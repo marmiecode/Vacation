@@ -116,7 +116,6 @@
 				956069EC2C8F86BD005EC85B /* ViewModels */,
 				956069E92C8F8460005EC85B /* Models */,
 				956069BF2C8F8347005EC85B /* VacationApp.swift */,
-				956069C12C8F8347005EC85B /* ContentView.swift */,
 				956069C32C8F8348005EC85B /* Assets.xcassets */,
 				956069C52C8F8348005EC85B /* Preview Content */,
 			);
@@ -167,6 +166,7 @@
 		956069F42C922E8B005EC85B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				956069C12C8F8347005EC85B /* ContentView.swift */,
 				956069F52C922EAD005EC85B /* ReserveButton.swift */,
 				956069F72C924296005EC85B /* LikeButton.swift */,
 				956069FB2C938037005EC85B /* CustomBar.swift */,
