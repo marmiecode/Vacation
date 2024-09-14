@@ -22,6 +22,7 @@
 		95606A002C93B16B005EC85B /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956069FF2C93B16B005EC85B /* IconButton.swift */; };
 		95606A022C94A8CF005EC85B /* OfferRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95606A012C94A8CF005EC85B /* OfferRow.swift */; };
 		95606A062C95096D005EC85B /* OfferListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95606A052C95096D005EC85B /* OfferListView.swift */; };
+		95606A0A2C95FAA4005EC85B /* LikedOffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95606A092C95FAA4005EC85B /* LikedOffersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		956069FF2C93B16B005EC85B /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
 		95606A012C94A8CF005EC85B /* OfferRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferRow.swift; sourceTree = "<group>"; };
 		95606A052C95096D005EC85B /* OfferListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferListView.swift; sourceTree = "<group>"; };
+		95606A092C95FAA4005EC85B /* LikedOffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedOffersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				956069FF2C93B16B005EC85B /* IconButton.swift */,
 				95606A012C94A8CF005EC85B /* OfferRow.swift */,
 				95606A052C95096D005EC85B /* OfferListView.swift */,
+				95606A092C95FAA4005EC85B /* LikedOffersView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				956069C22C8F8347005EC85B /* ContentView.swift in Sources */,
 				95606A022C94A8CF005EC85B /* OfferRow.swift in Sources */,
 				95606A062C95096D005EC85B /* OfferListView.swift in Sources */,
+				95606A0A2C95FAA4005EC85B /* LikedOffersView.swift in Sources */,
 				956069C02C8F8347005EC85B /* VacationApp.swift in Sources */,
 				956069F62C922EAD005EC85B /* ReserveButton.swift in Sources */,
 			);
