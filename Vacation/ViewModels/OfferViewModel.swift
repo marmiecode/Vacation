@@ -12,6 +12,10 @@ class OfferViewModel:ObservableObject {
   @Published var offers: [Offer] = []
   @Published var likedOffers: Set<UUID> = []
   
+  init() {
+    vacationOffer()
+  }
+  
   func vacationOffer() {
     offers = [
       Offer(hotelName: "Alpine Lodge", city: "Chamonix", country: "France", description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. " , price: 1600, image: ["zdj1", "zdj2"]),
