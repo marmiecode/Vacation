@@ -9,7 +9,7 @@ import SwiftUI
 
 struct OfferRow: View {
   var offer: Offer
-  @State var isLiked: Bool
+  var isLiked: Bool
   var toggleLiked: () -> Void
   
   
