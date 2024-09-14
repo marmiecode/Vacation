@@ -9,6 +9,8 @@ import SwiftUI
 
 
 
+import SwiftUI
+
 struct OfferListView: View {
   @ObservedObject var viewModel: OfferViewModel
   
@@ -36,6 +38,3 @@ struct OfferListView: View {
     }
   }
 }
-
-
-
